@@ -18,26 +18,18 @@ interface LoginData {
                 <div class="flex flex-col">
                     <label for="email">Email:</label>
                     <input id="email" type="email" class="rounded-sm border px-1" />
-
-                    <!-- Email form errors -->
                 </div>
 
                 <div class="flex flex-col">
                     <label for="password">Password:</label>
                     <input id="password" type="password" class="rounded-sm border px-1" />
-                    <span class="text-sm text-gray-500">Password length:</span>
-
-                    <!-- Password form errors -->
+                    <span class="text-sm text-gray-500">Password length: ?</span>
                 </div>
 
                 <button type="submit" class="rounded-sm bg-emerald-800 py-1 text-white disabled:opacity-70">
                     Submit
                 </button>
             </form>
-
-            <hr />
-
-            <!-- Field states -->
         </div>
     `,
 })
