@@ -8,7 +8,7 @@ interface LoginData {
 }
 
 @Component({
-    selector: 'app-login-example',
+    selector: 'app-completed-login-example',
     imports: [FormField, JsonPipe],
     template: `
         <div class="mx-auto flex max-w-250 flex-col gap-3 px-5">
@@ -86,7 +86,7 @@ interface LoginData {
         </div>
     `,
 })
-export default class SignupExampleComponent {
+export default class CompletedLoginExampleComponent {
     private readonly loginModel = signal<LoginData>({ email: '', password: '' });
 
     protected readonly loginForm = form(this.loginModel, (schemaPath) => {

@@ -25,7 +25,7 @@ interface LoginData {
                 <div class="flex flex-col">
                     <label for="password">Password:</label>
                     <input id="password" type="password" class="rounded-sm border px-1" />
-                    <span class="text-sm text-gray-500">Password length: {{ -1 }}</span>
+                    <span class="text-sm text-gray-500">Password length:</span>
 
                     <!-- Password form errors -->
                 </div>
@@ -41,4 +41,4 @@ interface LoginData {
         </div>
     `,
 })
-export default class SignupExampleComponent {}
+export default class LoginExampleComponent {}
